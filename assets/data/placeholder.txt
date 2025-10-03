@@ -1,0 +1,13 @@
+This directory contains data files for the website.
+
+You can add:
+- JSON files for dynamic content
+- CSV files for data import
+- XML files for configuration
+- Text files for content
+
+Example files:
+- products.json (product data)
+- tutorials.json (tutorial data)
+- team.json (team member data)
+- config.json (site configuration)

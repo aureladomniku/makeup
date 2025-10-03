@@ -1,0 +1,13 @@
+This directory contains custom fonts for the website.
+
+You can add custom font files here:
+- .woff2 (recommended)
+- .woff
+- .ttf
+- .otf
+
+Example font files you might want to add:
+- custom-font.woff2
+- custom-font.woff
+
+To use custom fonts, add @font-face declarations in your CSS files.

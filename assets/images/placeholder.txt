@@ -1,0 +1,15 @@
+This directory contains images for the website.
+
+Place your images here:
+- about-us.jpg (for about page)
+- team1.jpg, team2.jpg, team3.jpg (for team members)
+- tutorial1.jpg through tutorial6.jpg (for tutorial cards)
+- product1.jpg through product6.jpg (for product cards)
+
+Recommended image sizes:
+- Hero images: 1200x600px
+- Card images: 400x300px
+- Team member photos: 300x300px
+- Product images: 400x400px
+
+Supported formats: JPG, PNG, WebP

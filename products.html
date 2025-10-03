@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Products - Beauty Glamour</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">Beauty Glamour</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutorials.html" class="nav-link">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link active">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Beauty Products</h1>
+                <p>Discover our premium collection of cruelty-free makeup and beauty essentials</p>
+            </div>
+        </section>
+
+        <section class="products-content">
+            <div class="container">
+                <div class="product-categories">
+                    <button class="category-btn active" data-category="all">All Products</button>
+                    <button class="category-btn" data-category="face">Face</button>
+                    <button class="category-btn" data-category="eyes">Eyes</button>
+                    <button class="category-btn" data-category="lips">Lips</button>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card" data-category="face">
+                        <div class="product-image">
+                            <img src="assets/images/nars.webp" alt="Product 1" onerror="this.style.display='none'">
+                            <div class="product-badge">New</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Flawless Foundation</h3>
+                            <p>Long-wearing, full-coverage foundation with SPF 30 for all-day protection</p>
+                            <div class="product-price">
+                                <span class="current-price">$39.99</span>
+                                <span class="original-price">$49.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(128 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="eyes">
+                        <div class="product-image">
+                            <img src="assets/images/ysl.webp" alt="Product 2" onerror="this.style.display='none'">
+                        </div>
+                        <div class="product-content">
+                            <h3>Pro Makeup Brush Set</h3>
+                            <p>Professional-grade synthetic brushes for flawless application and blending</p>
+                            <div class="product-price">
+                                <span class="current-price">$79.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-count">(89 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="lips">
+                        <div class="product-image">
+                            <img src="assets/images/huda beauty.jpg" alt="Product 3" onerror="this.style.display='none'">
+                        </div>
+                        <div class="product-content">
+                            <h3>Luxury Lipstick Collection</h3>
+                            <p>Long-lasting, highly pigmented lipsticks in 12 stunning shades</p>
+                            <div class="product-price">
+                                <span class="current-price">$24.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(45 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="face">
+                        <div class="product-image">
+                            <img src="assets/images/kylie.webp" alt="Product 4" onerror="this.style.display='none'">
+                        </div>
+                        <div class="product-content">
+                            <h3>Concealer & Corrector</h3>
+                            <p>Full-coverage concealer with color-correcting properties for flawless skin</p>
+                            <div class="product-price">
+                                <span class="current-price">$29.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-count">(67 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="eyes">
+                        <div class="product-image">
+                            <img src="assets/images/chanel.avif" alt="Product 5" onerror="this.style.display='none'">
+                        </div>
+                        <div class="product-content">
+                            <h3>Eyeshadow Palette</h3>
+                            <p>18-shade eyeshadow palette with matte, shimmer, and metallic finishes</p>
+                            <div class="product-price">
+                                <span class="current-price">$49.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(156 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="lips">
+                        <div class="product-image">
+                            <img src="assets/images/prada.webp" alt="Product 6" onerror="this.style.display='none'">
+                        </div>
+                        <div class="product-content">
+                            <h3>Lip Gloss Set</h3>
+                            <p>6-piece lip gloss collection with plumping effect and long-lasting shine</p>
+                            <div class="product-price">
+                                <span class="current-price">$34.99</span>
+                            </div>
+                            <div class="product-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-count">(23 reviews)</span>
+                            </div>
+                            <button class="add-to-cart-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Beauty Glamour. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
